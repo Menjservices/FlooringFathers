@@ -1,8 +1,8 @@
 {
-  "useSmtp": false,
-  "host": "stmp.gmail.com",
+  "useSmtp": true,
+  "host": "mail.flooringfathers.co.za",
   "port": 465,
-  "username": "demo@gmail.com",
-  "password": "demopassword",
-  "recipientEmail": "demo@gmail.com"
+  "username": "info@flooringfathers.co.za",
+  "password": "NpYyFwv[x{CQ",
+  "recipientEmail": "info@flooringfathers.co.za"
 }
