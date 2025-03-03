@@ -22318,7 +22318,8 @@ img.mfp-img {
 .photo {
 	
 	display: block;
-	background: radial-gradient(circle at 50% 10%, rgba(255, 255, 255, 0.2) 15%, #192a80 70%), radial-gradient(circle at 50% 90%, rgba(255, 255, 255, 0.1) 10%, rgba(19, 42, 128, 0) 50%)
+	/*background: radial-gradient(circle at 50% 10%, rgba(255, 255, 255, 0.2) 15%, #192a80 70%), radial-gradient(circle at 50% 90%, rgba(255, 255, 255, 0.1) 10%, rgba(19, 42, 128, 0) 50%)*/
+	
   }
   
   
