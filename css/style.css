@@ -2940,8 +2940,8 @@ hr {
 }
 
 .button-primary.button-pipaluk, .button-primary.button-pipaluk:focus {
-	background:#ffffff;
-	color: #000080;
+	
+	color: #ffffff;
 }
 
 .button-primary.button-pipaluk::before, .button-primary.button-pipaluk:focus::before {
