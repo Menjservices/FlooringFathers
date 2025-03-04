@@ -2913,8 +2913,8 @@ hr {
 
 .button-primary, .button-primary:focus {
 	color: #ffffff;
-	background-color: #dab57a;
-	border-color: #dab57a;
+	background-color: #000080;
+	border-color: #000080;
 }
 
 .button-primary:hover, .button-primary:active {
@@ -3882,7 +3882,7 @@ hr {
 	left: 0;
 	width: 101%;
 	height: 101%;
-	background: #dab57a;
+	background: #000080;
 	z-index: -1;
 	opacity: 0;
 	transform: scale3d(0.7, 1, 1);
