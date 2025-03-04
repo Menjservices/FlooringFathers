@@ -2325,7 +2325,7 @@ p + .list-custom {
 img {
 	display: inline-block;
 	max-width: 100%;
-	height: auto;
+	height: 280px;
 }
 
 .img-responsive {
