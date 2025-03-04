@@ -2334,8 +2334,8 @@ img {
 	height: 240px;
 }
 
-.popsize1 {
-	display: inline-block;
+.box-sportlight-figure img {
+	display: block;
 	max-width: 100%;
 	height: 332px;
 }
