@@ -331,7 +331,7 @@ a[href*='tel'], a[href*='mailto'] {
 }
 
 .link-press {
-	color: #dab57a;
+	color: #000080;
 }
 
 .privacy-link {
@@ -381,7 +381,7 @@ a[href*='tel'], a[href*='mailto'] {
 .link-classic span::before {
 	height: 2px;
 	flex-grow: 1;
-	background-color: #151515;
+	background-color: #000080;
 }
 
 .link-classic span::after {
@@ -428,12 +428,12 @@ a[href*='tel'], a[href*='mailto'] {
 .link-instafeed-3 a,
 .link-instafeed-3 a:focus,
 .link-instafeed-3 a:active {
-	color: #efc4a3;
+	color: #000080;
 }
 
 .gallery-title a:hover,
 .link-instafeed-3 a:hover {
-	color: #dab57a;
+	color: #000080;
 }
 
 /*
@@ -458,11 +458,11 @@ a[href*='tel'], a[href*='mailto'] {
 }
 
 .block-center:hover .block-center-header {
-	background-color: #dab57a;
+	color: #000080;
 }
 
 .block-center-title {
-	background-color: #ffffff;
+	color: #000080;
 }
 
 @media (max-width: 1599px) {
@@ -470,10 +470,10 @@ a[href*='tel'], a[href*='mailto'] {
 		padding: 20px;
 	}
 	.block-center:hover .block-center-header {
-		background-color: #ffffff;
+		color: #000080;
 	}
 	.block-center-header {
-		background-color: #dab57a;
+		color: #000080;
 	}
 }
 
