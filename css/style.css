@@ -315,11 +315,11 @@ a, a:focus, a:active, a:hover {
 }
 
 a, a:focus, a:active {
-	color: #efc4a3;
+	color: #000080;
 }
 
 a:hover {
-	color: #dab57a;
+	color: #000080;
 }
 
 a[href*='tel'], a[href*='mailto'] {
