@@ -14494,14 +14494,15 @@ html.rd-navbar-fixed-linked .page {
 	width: 100%;
 	height: 0;
 	opacity: 0;
-	background: #dab57a;
+	background: #000080;
 	transform: translate3d(0, -50%, 0);
 	transition: all .3s ease;
 	z-index: -1;
 }
 
 .rd-navbar-modern.rd-navbar-static .rd-nav-link:hover {
-	color: #000080;
+	color: white;
+	background-color: #000080;
 }
 
 @media (min-width: 1200px) {
