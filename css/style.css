@@ -22335,6 +22335,15 @@ img.mfp-img {
 	/*background: radial-gradient(circle at 50% 10%, rgba(255, 255, 255, 0.2) 15%, #192a80 70%), radial-gradient(circle at 50% 90%, rgba(255, 255, 255, 0.1) 10%, rgba(19, 42, 128, 0) 50%)*/
 	
   }
-  
-  
+
+.ul-container {
+
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.ul-container ul {
+	flex: 1;
+	margin: 0 10px;
+}
  
