@@ -22336,14 +22336,13 @@ img.mfp-img {
 	
   }
 
-.ul-container {
-
-	display: flex;
-	flex-wrap: wrap;
-}
-
-.ul-container ul {
-	flex: 1;
-	margin: 0 10px;
-}
+  .ul-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .ul-container ul {
+    flex: 1;
+    margin: 0 10px;
+    list-style-type: none; /* Remove bullet points */
+  }
  
