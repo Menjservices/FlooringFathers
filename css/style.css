@@ -13339,7 +13339,7 @@ html.tablet .ui-to-top {
 
 .project-close span {
 	position: absolute;
-	background: #151515;
+	background: #fff;
 	transition: all .15s ease-in-out;
 }
 
