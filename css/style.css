@@ -1092,14 +1092,14 @@ a[href*='tel'], a[href*='mailto'] {
 .box-contacts-icon {
 	font-size: 60px;
 	line-height: 1;
-	color: #dab57a;
+	color: #02273A;
 }
 
 .box-contacts-decor {
 	margin: 30px auto;
 	height: 2px;
 	max-width: 100px;
-	background: #dab57a;
+	background: #02273A;
 	transition: all .3s ease-in-out;
 }
 
