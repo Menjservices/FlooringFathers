@@ -11300,11 +11300,11 @@ html [class*='section-'].section-top-0 {
 }
 
 .context-dark .footer-social-list-2 a:hover, .bg-gray-dark .footer-social-list-2 a:hover, .bg-primary .footer-social-list-2 a:hover {
-	color: #efc4a3;
+	color: #fff;
 }
 
 .context-dark .footer-social-list-title, .bg-gray-dark .footer-social-list-title, .bg-primary .footer-social-list-title {
-	color: #ffffff;
+	color: #fff;
 }
 
 .footer-minimal.context-dark .footer-minimal-bottom-panel, .footer-minimal.bg-gray-dark .footer-minimal-bottom-panel, .footer-minimal.bg-primary .footer-minimal-bottom-panel,
