@@ -14920,11 +14920,11 @@ html.rd-navbar-fixed-linked .page {
 }
 
 .rd-navbar-modern-contacts a, .rd-navbar-modern-contacts a:focus, .rd-navbar-modern-contacts a:active {
-	color: #151515;
+	color: #fff;
 }
 
 .rd-navbar-modern-contacts a:hover {
-	color: #dab57a;
+	color: #02273A;
 }
 
 .rd-navbar-modern-contacts li + li {
@@ -14976,7 +14976,8 @@ html.rd-navbar-fixed-linked .page {
 	top: 0;
 	right: 0;
 	bottom: 0;
-	background: #ffffff;
+	background: #02273A;
+	color: #fff;
 	transform: translateX(102%);
 	box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.37);
 	z-index: 1030;
