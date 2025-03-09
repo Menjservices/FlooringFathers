@@ -14507,7 +14507,7 @@ html.rd-navbar-fixed-linked .page {
 	width: 100%;
 	height: 0;
 	opacity: 0;
-	background: #02273A;
+	background: #fff;
 	transform: translate3d(0, -50%, 0);
 	transition: all .3s ease;
 	z-index: -1;
@@ -14515,7 +14515,7 @@ html.rd-navbar-fixed-linked .page {
 
 .rd-navbar-modern.rd-navbar-static .rd-nav-link:hover {
 	color: white;
-	background-color: #02273A;
+	background-color: #fff;
 }
 
 @media (min-width: 1200px) {
