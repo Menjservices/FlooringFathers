@@ -14960,11 +14960,11 @@ html.rd-navbar-fixed-linked .page {
 }
 
 .rd-navbar-modern-list-social a, .rd-navbar-modern-list-social a:focus, .rd-navbar-modern-list-social a:active {
-	color: #02273A;
+	color: #fff;
 }
 
 .rd-navbar-modern-list-social a:hover {
-	color: #02273A;
+	color: #fff;
 }
 
 * + .rd-navbar-modern-list-social {
