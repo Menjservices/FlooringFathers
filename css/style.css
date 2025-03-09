@@ -117,7 +117,7 @@ h1, h2, h3, h4, h5, h6, [class*='heading-'] {
 	font-family: "Teko", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 	letter-spacing: .05em;
 	text-transform: uppercase;
-	color: #151515;
+	color: #ffffff;
 }
 
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a, [class*='heading-'] a {
@@ -1373,8 +1373,8 @@ a[href*='tel'], a[href*='mailto'] {
 	padding: 10px 15px;
 	border-width: 0 1px 1px 1px;
 	border-style: solid;
-	border-color: #e1e1e1;
-	background: #ffffff;
+	border-color: #02273A;
+	background: #02273A;
 	transition: all .3s ease-in-out;
 }
 
