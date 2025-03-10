@@ -20525,10 +20525,12 @@ Version: 3.5.4 Timestamp: Sun Aug 30 13:30:32 EDT 2015
 	display: block;
 	position: relative;
 	color: #151515;
-	background-color: #ffffff;
+	background-color: #f7f7f7;
 	padding: 12px 40px 12px 26px;
 	border-radius: 0;
 	text-decoration: none;
+	min-height: 60px;
+	
 }
 
 .select2-container .select2-choice > .select2-chosen {
@@ -20536,6 +20538,9 @@ Version: 3.5.4 Timestamp: Sun Aug 30 13:30:32 EDT 2015
 	overflow: hidden;
 	white-space: nowrap;
 	text-overflow: ellipsis;
+	top: 17px;
+  	position: absolute;
+  	background: #f7f7f7;
 }
 
 .select2-dropdown-open .select2-choice {
