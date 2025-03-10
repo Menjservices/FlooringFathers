@@ -746,7 +746,7 @@
       form1.addEventListener('submit', function(e) {
       
           const hCaptcha = form.querySelector('textarea[name=h-captcha-response]').value;
-      
+          console.log(hCaptcha)
           if (!hCaptcha) {
               e.preventDefault();
               alert("Please fill out captcha field")
