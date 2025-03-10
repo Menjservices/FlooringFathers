@@ -715,10 +715,9 @@
       result.innerHTML = "Please wait..."
 
       const hCaptcha = form.querySelector('textarea[name=h-captcha-response]').value;
-          console.log(hCaptcha)
           if (!hCaptcha) {
               e.preventDefault();
-              alert("Please fill out captcha field")
+              result.innerHTML = "Please complete the captcha";
               return
           }
 
@@ -754,7 +753,6 @@
     </script>
     
     <script src="https://web3forms.com/client/script.js" async defer></script>
-    <!-- coded by gel-->
-   
+
   </body>
 </html>
