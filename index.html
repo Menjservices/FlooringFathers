@@ -527,6 +527,7 @@
               <form class="rd-form rd-mailform" data-form-type="contact" method="POST" id="form">
                 <input type="hidden" name="access_key" value="f5136386-3bc9-4780-af7c-ba19df9a4c21">
                 <input type="hidden" name="subject" value="Contact form Submission from Flooring Fathers Website">
+                <input type="hidden" name="replyto" value="info@floorin.co.za">
                 <div class="row row-14 gutters-14">
                   <div class="col-sm-6">
                     <div class="form-wrap">
@@ -550,6 +551,24 @@
                     <div class="form-wrap">
                       <label class="form-label" for="contact-message">Message</label>
                       <textarea class="form-input" id="contact-message" name="message" data-constraints="@Required"></textarea>
+                    </div>
+                  </div>
+                  <div class="col-sm-6">
+                    <div class="form-wrap">
+                      <select id="contact-product" name="products">
+                        <option value="Homogeneous Vinyl">Homogeneous Vinyl</option>
+                        <option value="Heterogeneous Vinyl">Heterogeneous Vinyl</option>
+                        <option value="Luxury Vinyl Tile (LVT)">Luxury Vinyl Tile (LVT)</option>
+                        <option value="RigidCore Products">RigidCore Products</option>
+                        <option value="Carpet Tile">Carpet Tile</option>
+                        <option value="Carpet">Carpet</option>
+                        <option value="Vinyl Sheeting">Vinyl Sheeting</option>
+                        <option value="Linoleum">Linoleum</option>  
+                        <option value="Laminate Wood">Laminate Wood</option>
+                        <option value="Engineered Wood">Engineered Wood</option>
+                        <option value="Artificial Grass">Artificial Grass</option>
+                    </select><br>
+                      <label class="form-label" for="contact-product">Select Your Product (Optional)</label>
                     </div>
                   </div>
                 </div>
