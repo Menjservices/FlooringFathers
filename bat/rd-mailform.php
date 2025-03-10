@@ -101,17 +101,17 @@ try {
         $mail->Host = $formConfig['host'];
 
         // Set the SMTP port number - likely to be 25, 465 or 587
-        $mail->Port = $formConfig['port'];
+        $mail->Port = $formConfig['25'];
 
         // Whether to use SMTP authentication
         $mail->SMTPAuth = true;
         $mail->SMTPSecure = "ssl";
 
         // Username to use for SMTP authentication
-        $mail->Username = $formConfig['username'];
+        $mail->Username = $formConfig['info@flooringfathers.co.za'];
 
         // Password to use for SMTP authentication
-        $mail->Password = $formConfig['password'];
+        $mail->Password = $formConfig['NpYyFwv[x{CQ'];
     }
 
     $mail->From = $addresses[0][0][0];
