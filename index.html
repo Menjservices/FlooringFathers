@@ -740,5 +740,19 @@
     
     <script src="https://web3forms.com/client/script.js" async defer></script>
     <!-- coded by gel-->
+    <script>
+      const form1 = document.getElementById('form');
+      
+      form1.addEventListener('submit', function(e) {
+      
+          const hCaptcha = form.querySelector('textarea[name=h-captcha-response]').value;
+      
+          if (!hCaptcha) {
+              e.preventDefault();
+              alert("Please fill out captcha field")
+              return
+          }
+      });
+      </script>
   </body>
 </html>
