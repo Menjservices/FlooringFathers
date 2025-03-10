@@ -575,7 +575,7 @@
                   <div class="col-sm-6">
                     <div class="form-wrap">
                       <input class="form-input" id="contact-size" type="text" name="size">
-                      <label class="form-label" for="contact-size">Square Meters Required (Optional)</label>
+                      <label class="form-label" for="contact-size" id="contact-size">Square Meters Required (Optional)</label>
                     </div>
                   </div>
                 </div>
@@ -777,6 +777,14 @@
     });
 
     </script>
+
+<script>
+  function appendSqm() {
+      var input = document.getElementById("contact-size");
+      input.value = input.value.replace(/[^\d]/g, '') + " sqm";
+  }
+</script>
+
     
     <script src="https://web3forms.com/client/script.js" async defer></script>
 
