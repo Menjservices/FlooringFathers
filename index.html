@@ -574,7 +574,7 @@
                   </div>
                   <div class="col-sm-6">
                     <div class="form-wrap">
-                      <input class="form-input" id="contact-size" type="text" name="size" onblur="appendSqm">
+                      <input class="form-input" id="contact-size" type="text" name="contact-size" onblur="appendSqm">
                       <label class="form-label" for="contact-size" >Square Meters Required (Optional)</label>
                     </div>
                   </div>
@@ -781,6 +781,7 @@
 <script>
   function appendSqm() {
       var input = document.getElementById("contact-size");
+      input.color = "red";
       input.value = input.value.replace(/[^\d]/g, '') + "sqm";
   }
 </script>
