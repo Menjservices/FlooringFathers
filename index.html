@@ -695,6 +695,15 @@
     <script src="js/script.js"></script>
 
     <script>
+      const form1 = document.getElementById('form');
+      
+      form1.addEventListener('submit', function(e) {
+      
+         
+      });
+      </script>
+
+    <script>
     const form = document.getElementById('form');
     const result = document.getElementById('result');
 
@@ -704,6 +713,14 @@
       const object = Object.fromEntries(formData);
       const json = JSON.stringify(object);
       result.innerHTML = "Please wait..."
+
+      const hCaptcha = form.querySelector('textarea[name=h-captcha-response]').value;
+          console.log(hCaptcha)
+          if (!hCaptcha) {
+              e.preventDefault();
+              alert("Please fill out captcha field")
+              return
+          }
 
         fetch('https://api.web3forms.com/submit', {
                 method: 'POST',
@@ -738,19 +755,6 @@
     
     <script src="https://web3forms.com/client/script.js" async defer></script>
     <!-- coded by gel-->
-    <script>
-      const form1 = document.getElementById('form');
-      
-      form1.addEventListener('submit', function(e) {
-      
-          const hCaptcha = form.querySelector('textarea[name=h-captcha-response]').value;
-          console.log(hCaptcha)
-          if (!hCaptcha) {
-              e.preventDefault();
-              alert("Please fill out captcha field")
-              return
-          }
-      });
-      </script>
+   
   </body>
 </html>
