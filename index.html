@@ -554,7 +554,17 @@
                   </div>
                 </div>
                 <button class="button button-primary button-pipaluk" type="submit">Send Message</button>
+                <div class="h-captcha" 
+                  data-captcha="true" 
+                  data-lang="en" 
+                  data-theme="dark"
+                  data-onload="myFunction"
+                  data-render="explicit"
+                  data-size="compact"
+                  ></div>
                 <div id="result"></div>
+
+
               </form>
             </div>
           </div>
@@ -727,6 +737,8 @@
     });
 
     </script>
+    
+    <script src="https://web3forms.com/client/script.js" async defer></script>
     <!-- coded by gel-->
   </body>
 </html>
