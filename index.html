@@ -574,7 +574,7 @@
                   </div>
                   <div class="col-sm-6">
                     <div class="form-wrap">
-                      <input class="form-input" id="contact-size" type="text" name="contact-size" onblur="appendSquareMeters">
+                      <input class="form-input" id="contact-size" type="text" name="contact-size" onblur="appendSquareMeters()">
                       <label class="form-label" for="contact-size" >Square Meters Required (Optional)</label>
                     </div>
                   </div>
@@ -780,9 +780,12 @@
 
 <script>
   function appendSquareMeters() {
-      var input = document.getElementById("contact-size");
-      input.style.color = "red";
-      input.value = input.value.replace(/[^\d]/g, '') + "sqm";
+    var input = document.getElementById("contact-size");
+            var value = input.value.trim(); // Trim any extra whitespace
+            if (value && !value.endsWith("sqm")) { // Check if value is not empty and doesn't already end with "sqm"
+                var numericValue = value.replace(/[^\d]/g, ''); // Extract numeric part
+                input.value = numericValue + " sqm"; // Append "sqm" to numeric part
+            }
   }
       
 </script>
